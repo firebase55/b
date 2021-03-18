@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".activities.maplocation.MapsActivity">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="20dp"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    tools:context=".activities.maplocation.MapsActivity"
+
+
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="130dp"
+            android:text="Stop"
+            android:background="@drawable/stop_button_design"
+            android:id="@+id/stop_button"
+            android:layout_height="40dp">
+
+        </Button>
+        <Button
+            android:layout_width="130dp"
+            android:layout_marginLeft="10dp"
+            android:text="Emergency"
+            android:gravity="center"
+            android:background="@drawable/button_design"
+            android:id="@+id/Emergency_button"
+            android:layout_height="40dp">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/petrol_Button"
+            android:layout_width="130dp"
+            android:background="@drawable/blue_color"
+            android:layout_height="40dp"
+            android:text="Petrol">
+
+        </Button>
+        <Button
+            android:layout_width="130dp"
+            android:text="Finish"
+            android:background="@drawable/ptrlo_design"
+            android:id="@+id/finish_button"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

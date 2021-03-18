@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "569548995848",
+    "project_id": "konvoi-tracker-116ac",
+    "storage_bucket": "konvoi-tracker-116ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569548995848:android:0ffc78c49d3981eebf40bd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569548995848-mfolqvbjnv30tukgbiadgv5ef26mmuss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "7f9efe6794e311c76289d775ca0372876dfee45b"
+          }
+        },
+        {
+          "client_id": "569548995848-cilamv47dkkih6d2or404k7m9s5qs2fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX-qatuCKhmBE4w31mStSo6cbNlY7TNfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569548995848-cilamv47dkkih6d2or404k7m9s5qs2fu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

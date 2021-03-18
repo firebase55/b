@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.HomeActivity">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/bg_color"
+            android:layout_height="40dp">
+<!--
+            <ImageView
+                android:id="@+id/iv_back_convoy_home"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:src="@drawable/ic_arrow_back"/>
+-->
+            <TextView
+                android:id="@+id/tv_convoy_name_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Konvoi Teacher"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sixteen_sp"
+                android:textStyle="bold"/>
+        </FrameLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_home"
+        android:layout_width="match_parent"
+        app:tabIndicator="@color/bg_color"
+        app:tabTextColor="@color/light_blue"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicatorColor="@color/bg_color"
+        app:tabSelectedTextColor="@color/bg_color"
+        android:layout_height="40dp"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

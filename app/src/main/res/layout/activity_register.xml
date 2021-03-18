@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="30dp"
+            android:text="Konvoi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_eight_sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="        Tracker"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_four_sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New User Register"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textSize="@dimen/twenty_sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:id="@+id/name_id"
+            android:maxLines="1"
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_user_input" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone no"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:inputType="phone"
+            android:paddingHorizontal="10dp"
+            android:textSize="@dimen/fourteen_sp"
+            android:id="@+id/mobile_id"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_user_input" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:textSize="@dimen/fourteen_sp"
+            android:id="@+id/pass_id"
+            android:maxLines="1"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_user_input" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:textSize="@dimen/fourteen_sp"
+            android:maxLines="1"
+            android:id="@+id/conform_id"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_user_input" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_button"
+            android:text="Sign Up"
+            android:layout_marginVertical="20dp"
+            android:gravity="center"
+            android:elevation="4dp"
+            android:textColor="@color/bg_color"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_login_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fourteen_sp"
+            android:text="Already have an account? Login now"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
